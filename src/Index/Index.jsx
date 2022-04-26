@@ -7,7 +7,7 @@ const Index =()=>{
                 Prueba
             </h1>
             <h2>
-                prueba 2
+                prueba 3
             </h2>
         </div>
     )
