@@ -37,7 +37,7 @@ const Index =()=>{
                     {}
                     <Row>
                         <div class="col">
-                            <h2 class="mt-4 text-center" id="servi">Nuestros servicios</h2>
+                            <h2 class="mt-4 text-center" id="servi">Nuestros servicioss</h2>
                             <i class="text-center far fa-window-minimize mb-4"></i>
                         </div>
                     </Row>
