@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "product": "Crema marca",
+        "img": "./imgs/p1.jpg",
+        "price": 400
+    },
+    {
+        "id": 2,
+        "product": "Crema marca",
+        "img": "./imgs/p1.jpg",
+        "price": 400
+    },
+    {
+        "id": 2,
+        "product": "Crema marca",
+        "img": "./imgs/p1.jpg",
+        "price": 400
+    },
+    {
+        "id": 2,
+        "product": "Crema marca",
+        "img": "./imgs/p1.jpg",
+        "price": 400
+    }
+]
