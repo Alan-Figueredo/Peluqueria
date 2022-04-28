@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "service": "Lavado",
+        "img": "./imgs/Captura de pantalla 2021-10-25 220641.png"
+    },
+    {
+        "id": 2,
+        "service": "Coloración",
+        "img": "./imgs/coloracion.jpg"
+    },
+    {
+        "id": 2,
+        "service": "Peinados",
+        "img": "./imgs/peinados.jpg"
+    }
+]
