@@ -1,13 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
-import { Navbar } from 'react-bootstrap';
+import Index from './Index/Index';
+import { NavBar } from './NavBar/NavBar';
 
-function App() {
-  return (
-    <Navbar>
-      <Index/>
-    </Navbar>
-  );
+export const App =()=>{
+  <Router>
+    <NavBar/>
+    <Routes>
+      <Route index element={<Index/>} />
+      <Route element={<SobreNosotros/>} />
+      <Route element={<Servicios/>} />
+      <Route element={<Tienda/>} />
+      <Route element={<Turnos/>}/>
+      <Route element={<Contacto/>}/>
+    </Routes>
+    <Footer/>
+  </Router>
 }
-
-export default App;
