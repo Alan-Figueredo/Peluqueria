@@ -11,7 +11,7 @@ export const Footer = () =>{
                         <img src="./imgs/LOGO_DE_LA_CRUZ_BASE_NEGRO.jpg" alt="imag" className="img-fluid"/>
                     </div>
                     <div class="col-sm-6 mt-5 text-sm-right text-center mb-4">
-                        <a href="" className="mx-3"><i class="fab fa-tiktok"></i></a>
+                        <a href="" className="mx-3"><i class="fab fa-tiktok"></i></a> ssss
                         <a href="" className="mx-3"><i class="fab fa-facebook-f"></i></a>
                         <a href="" className="mx-3"><i class="fab fa-instagram"></i></a>
                         <a href="" className="mx-3"><i class="fab fa-linkedin-in"></i></a>
