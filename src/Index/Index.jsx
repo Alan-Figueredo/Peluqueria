@@ -9,7 +9,7 @@ const Index =()=>{
             <h2>
                 prueba 3 3 3 3
             </h2>
-            <h2>Prueba kevin</h2>
+            <h2>Prueba kevin 2</h2>
         </div>
     )
 }
