@@ -31,22 +31,22 @@ export const NavBar = () =>{
                         <h1 className="nombreH1">Ruca</h1>
                         <ul className="nav nav-ul" id="nav-ul">
                             <li className="nav-item ">
-                                <Link to={} className="nav-link item" onClick={clickearCerrar}>Inicio</Link>
+                                <Link to={Index} className="nav-link item" onClick={clickearCerrar}>Inicio</Link>
                             </li>
                             <li className="nav-item ">
-                                <Link to={} className="nav-link item" onClick={clickearCerrar}>Sobre Nosotros</Link>
+                                <Link to={SobreNosotros} className="nav-link item" onClick={clickearCerrar}>Sobre Nosotros</Link>
                             </li>
                             <li className="nav-item ">
-                                <Link to={} className="nav-link item" onClick={clickearCerrar}>Servicios</Link>
+                                <Link to={Servicios} className="nav-link item" onClick={clickearCerrar}>Servicios</Link>
                             </li>
                             <li className="nav-item ">
-                                <Link to={} className="nav-link item" onClick={clickearCerrar}>Tienda</Link>
+                                <Link to={Tienda} className="nav-link item" onClick={clickearCerrar}>Tienda</Link>
                             </li>
                             <li className="nav-item ">
-                                <Link to={} className="nav-link item" onClick={clickearCerrar}>Turnos</Link>
+                                <Link to={Turnos} className="nav-link item" onClick={clickearCerrar}>Turnos</Link>
                             </li>
                             <li className="nav-item ">
-                                <Link to={} className="nav-link item" onClick={clickearCerrar}>Contacto</Link>
+                                <Link to={Contacto} className="nav-link item" onClick={clickearCerrar}>Contacto</Link>
                             </li>
                         </ul>
                     </Navbar>
