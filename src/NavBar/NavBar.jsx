@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Container, Navbar, Row } from "react-bootstrap"
 import "./NavBar.css";
 
