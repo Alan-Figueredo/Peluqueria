@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap"
 import IndexMasVendidos from "./IndexMasVendidos";
 import IndexServicios from "./IndexServicios";
 
-const Index =()=>{
+export const Index =()=>{
     return(
         <div>
             <Container>
@@ -75,4 +75,3 @@ const Index =()=>{
         </div>
     )
 }
-export default Index;
