@@ -11,17 +11,19 @@ import { Footer } from './Footer/Footer';
 import { NavBar } from './NavBar/NavBar';
 
 const App = () => {
-  <Router>
-    <NavBar />
-    <Routes>
-      <Route index element={<Index />} />
-      <Route element={<SobreNosotros />} />
-      <Route element={<Servicios />} />
-      <Route element={<Tienda />} />
-      <Route element={<Turnos />} />
-      <Route element={<Contacto />} />
-    </Routes>
-    <Footer />
-  </Router>
+  return (
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path="/" index element={<Index />} />
+        <Route path="/" element={<SobreNosotros />} />
+        <Route path="/" element={<Servicios />} />
+        <Route path="/" element={<Tienda />} />
+        <Route path="/" element={<Turnos />} />
+        <Route path="/" element={<Contacto />} />
+      </Routes>
+      <Footer />
+    </Router>
+  )
 }
 export default App;
