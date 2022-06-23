@@ -20,9 +20,9 @@ export const NavBar = () =>{
         document.getElementById("nav-ul").classList.remove("d-none");
     }
     return(
-        <div className="bg-black py-3" id="nav">
+        <div className="bg-black py-3">
             <Container>
-                    <Navbar>
+                    <Navbar className="d-flex flex-row">
                         <button className="hamburger" id="hamburger" onClick={()=>{
                                 document.getElementById("nav-ul").classList.toggle("show")
                                 document.getElementById("nav-ul").classList.remove("d-none");
@@ -30,12 +30,12 @@ export const NavBar = () =>{
                             {/* <FontAwesomeIcon className="fas fa-bars" icon={faBars}/> */}
                         </button>
                         <h1 className="nombreH1">Ruca</h1>
-                        <ul className="nav nav-ul" id="nav-ul">
-                            <li className="nav-item ">
+                        <ul className="nav nav-ul">
+                            <li className="nav-item">
                                 <Link to={""} className="nav-link item" onClick={clickearCerrar}>Inicio</Link>
                             </li>
-                            <li className="nav-item ">
-                                <Link to={""} className="nav-link item" onClick={clickearCerrar}>Sobre Nosotros</Link>
+                            <li className="nav-item">
+                                <Link to={""} className="nav-link item " onClick={clickearCerrar}>Sobre Nosotros</Link>
                             </li>
                             <li className="nav-item ">
                                 <Link to={""} className="nav-link item" onClick={clickearCerrar}>Servicios</Link>
